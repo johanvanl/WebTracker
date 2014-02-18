@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/action_help"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/action_help_string"/>
+    
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/action_new"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/action_add_string"/>
+    
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/action_refresh"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="@string/action_refresh_string"/>
+
+</menu>
